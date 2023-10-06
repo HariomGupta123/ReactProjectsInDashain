@@ -7,7 +7,7 @@ completed:false}],
 addTodo:(todo)=>()=>{},
 updatedTodo:(id,todo)=>{},
 deleteTodo:(id)=>{},
-toggleComplete:()=>{},
+toggleComplete:(id)=>{},
 })
 export const useTodo=()=>{
     return useContext(TodoContext)
